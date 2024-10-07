@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1,
+h2,
+h3,
+::placeholder,
+button {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+p,
+span {
+  font-family: "Nanum Gothic", sans-serif !important;
+}
+a {
+  font-family: "Playfair Display", serif !important;
+  font-size: 1.2rem;
+}
+
+.header_image {
+  background-image: url(../images/lin_sav_port_8945_retouch_0.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_background--blue {
+  background-color: #24c4ec94;
+}
+.whyus_check--orange::before {
+  content: "\2713";
+  color: orange;
+  font-weight: 900;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

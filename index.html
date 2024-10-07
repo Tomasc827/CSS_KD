@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <nav class="bg-white border-gray-200 py-3">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <h1 class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span
+            class="text-4xl font-semibold whitespace-nowrap text-orange-500 uppercase"
+            >Logo</span
+          >
+        </h1>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-orange-500 rounded md:bg-transparent md:text-orange-500 md:p-0 font-bold"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-orange-200 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 transition ease-in-out duration-700 font-bold"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-orange-200 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 transition ease-in-out duration-700 font-bold"
+                >Why Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-orange-200 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 transition ease-in-out duration-700 font-bold"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-orange-200 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 transition ease-in-out duration-700 font-bold"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-orange-200 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 transition ease-in-out duration-700 font-bold"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header_image">
+      <div class="header_background--blue pb-52">
+        <div class="w-[80%] flex flex-col content-center m-auto">
+          <h2
+            class="uppercase text-3xl pt-52 pb-14 text-white w-[50%] m-auto md:m-0"
+          >
+            Choose your quality delivery of your cargo
+          </h2>
+          <div class="flex md:flex-row gap-3 flex-col">
+            <input
+              type="text"
+              placeholder="Enter your tracking number"
+              class="w-[30%] border-2 border-gray-500 min-w-[225px] m-auto md:m-0"
+            />
+            <button
+              class="text-white w-[10%] bg-orange-500 shadow-lg shadow-orange-600 min-w-[90px] hover:bg-red-600 hover:shadow-yellow-400 ease-in-out duration-700 p-2 md:p-0 m-auto md:m-0"
+            >
+              Track now
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <article>
+      <div class="grid md:grid-cols-3 m-auto w-[80%] gap-6">
+        <section class="pt-5 md:pt-0">
+          <img
+            src="assets/images/cargo_sea_big.jpg"
+            alt="ships"
+            class="md:relative md:top-[-2rem]"
+          />
+          <h3
+            class="text-orange-500 font-bold text-2xl text-center uppercase pt-4 md:pt-0"
+          >
+            Sea Freight
+          </h3>
+          <p class="text-center pt-3 text-gray-400 up">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </section>
+        <section class="pt-5 md:pt-0">
+          <img
+            src="assets/images/cargo_air_big.jpg"
+            alt="planes"
+            class="md:relative md:top-[-2rem]"
+          />
+          <h3
+            class="text-orange-500 font-bold text-2xl text-center uppercase pt-4 md:pt-0"
+          >
+            Air Freight
+          </h3>
+          <p class="text-center pt-3 text-gray-400 up">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </section>
+        <section class="pt-5 md:pt-0">
+          <img
+            src="assets/images/cargo_delivery_big.jpg"
+            alt="packaging"
+            class="md:relative md:top-[-2rem]"
+          />
+          <h3
+            class="text-orange-500 font-bold text-2xl text-center uppercase pt-4 md:pt-0"
+          >
+            Package Forwarding
+          </h3>
+          <p class="text-center pt-3 text-gray-400 up pb-10 md:pb-24">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </section>
+      </div>
+    </article>
+    <main class="bg-gray-200 border-y-2 border-gray-300">
+      <div class="w-[80%] m-auto">
+        <h2 class="text-orange-500 text-4xl uppercase text-center pt-8 pb-4">
+          What We Offer
+        </h2>
+        <p class="text-gray-400 text-center pb-20">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+      <article
+        class="grid xl:grid-cols-3 xl:grid-rows-2 w-[80%] m-auto gap-6 md:grid-cols-2 pb-10"
+      >
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 7h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C10.4 2.842 8.949 2 7.5 2A3.5 3.5 0 0 0 4 5.5c.003.52.123 1.033.351 1.5H4a2 2 0 0 0-2 2v2a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V9a2 2 0 0 0-2-2Zm-9.942 0H7.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM13 14h-2v8h2v-8Zm-4 0H4v6a2 2 0 0 0 2 2h3v-8Zm6 0v8h3a2 2 0 0 0 2-2v-6h-5Z"
+            />
+          </svg>
+          <h2 class="font-bold text-2xl pt-3 uppercase">Sea Freight</h2>
+          <p class="text-gray-400 pt-3 pb-10">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m12 18-7 3 7-18 7 18-7-3Zm0 0v-5"
+            />
+          </svg>
+
+          <h2 class="font-bold text-2xl pt-3 uppercase">Air Freight</h2>
+          <p class="text-gray-400 pt-3 pb-10">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 16v-5.5A3.5 3.5 0 0 0 7.5 7m3.5 9H4v-5.5A3.5 3.5 0 0 1 7.5 7m3.5 9v4M7.5 7H14m0 0V4h2.5M14 7v3m-3.5 6H20v-6a3 3 0 0 0-3-3m-2 9v4m-8-6.5h1"
+            />
+          </svg>
+
+          <h2 class="font-bold text-2xl pt-3 uppercase">Package Forwarding</h2>
+          <p class="text-gray-400 pt-3 pb-10">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"
+            />
+          </svg>
+
+          <h2 class="font-bold text-2xl pt-3 uppercase">Trucking</h2>
+          <p class="text-gray-400 pt-3 pb-10">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+
+          <h2 class="font-bold text-2xl pt-3 uppercase">Warehouse</h2>
+          <p class="text-gray-400 pt-3 pb-10">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+        <section
+          class="bg-white px-5 py-8 border-2 border-gray-300 shadow-lg shadow-gray-500"
+        >
+          <svg
+            class="w-12 h-12 text-orange-500 shadow-lg shadow-red-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15.583 8.445h.01M10.86 19.71l-6.573-6.63a.993.993 0 0 1 0-1.4l7.329-7.394A.98.98 0 0 1 12.31 4l5.734.007A1.968 1.968 0 0 1 20 5.983v5.5a.992.992 0 0 1-.316.727l-7.44 7.5a.974.974 0 0 1-1.384.001Z"
+            />
+          </svg>
+
+          <h2 class="font-bold text-2xl pt-3 uppercase">Delivery</h2>
+          <p class="text-gray-400 pt-3 pb-20">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </section>
+      </article>
+    </main>
+    <section
+      class="grid md:grid-cols-2 m-auto pt-10 w-[80%] place-items-center"
+    >
+      <div class="pt-8 ps-8">
+        <h2 class="font-bold uppercase text-2xl">Why us</h2>
+        <h3 class="text-orange-500 uppercase font-bold text-xl pt-5">
+          We work quickly and efficiently!
+        </h3>
+        <p class="text-gray-400 pb-12 w-[70%]">
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+        <p class="pb-3 text-gray-400 whyus_check--orange">Express</p>
+        <p class="pb-3 text-gray-400 whyus_check--orange">Secure Services</p>
+        <p class="pb-3 text-gray-400 whyus_check--orange">
+          Secure Warehouseing
+        </p>
+        <p class="pb-3 text-gray-400 whyus_check--orange">Cost savings</p>
+        <p class="pb-3 text-gray-400 whyus_check--orange">
+          Proven by great companies
+        </p>
+      </div>
+      <div>
+        <img
+          src="assets/images/cargo_sea_big.jpg"
+          alt="ships"
+          class="pb-20 pt-8"
+        />
+      </div>
+    </section>
+    <footer class="bg-gray-700 text-white text-center">
+      <p class="w-[80%] m-auto py-6">
+        &#169; All Rights Reserved. Design by Tomas Čeponis, TECHIN, 2024
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
